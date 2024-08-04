@@ -1,7 +1,7 @@
 const ShowTask = ({ tasklist, setTasklist, handleEdit, handleDelete }) => {
   return (
     <section className="showTask">
-      <div className="head">
+      <div className={"head"}>
         <div>
           <span>
             <span className="title">Todo</span>

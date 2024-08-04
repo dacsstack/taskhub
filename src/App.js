@@ -72,7 +72,7 @@ function App() {
     <div className={"App " + theme}>
       <div className="container">
         <Header setTheme={setTheme} theme={theme}>
-          Task Management
+          TaskHub
         </Header>
         <AddTask
           handleSubmit={handleSubmit}

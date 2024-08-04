@@ -1,20 +1,23 @@
 .App {
   min-height: 100vh;
-  max-width: 1200px;
+  max-width: 100%;
   margin: auto;
   padding: 10px 10px;
 }
 
 header {
   min-height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 15px;
   margin-bottom: 70px;
+  margin: 20px auto;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.9;
 }
 
 header .logo {
@@ -56,6 +59,7 @@ header .themeSelector .activeTheme {
   max-width: 500px;
   margin: 20px auto;
   box-shadow: var(--box-shadow);
+  opacity: 0.9;
 }
 
 .addTask form {
@@ -95,6 +99,8 @@ header .themeSelector .activeTheme {
   background-color: #ffffff;
   margin: 20px auto;
   box-shadow: var(--box-shadow);
+  max-width: 1200px;
+  opacity: 0.9;
 }
 
 .showTask div.head {
@@ -131,7 +137,6 @@ header .themeSelector .activeTheme {
   cursor: pointer;
   border: 0px;
   font-size: 16px;
-  margin: 0px;
 }
 
 .showTask .clearAll:hover {

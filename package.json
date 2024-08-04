@@ -1,6 +1,6 @@
 {
-  "homepage": "https://dacsstack.github.io/task-management",
-  "name": "task-management",
+  "homepage": "https://dacsstack.github.io/taskhub",
+  "name": "taskhub",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

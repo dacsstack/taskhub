@@ -19,11 +19,13 @@
 .light {
   background-color: #ffffff;
   transition: all 500ms;
+  width: 100%;
 }
 
 .medium {
   background-color: #efefef;
   transition: all 500ms;
+  max-width: 100%;
 }
 
 .dark {
@@ -57,7 +59,7 @@
       125deg,
       #ffa3ac 0%,
       #ffa3ac 40%,
-      #00043c calc(40% + 1px),
+      #003c20 calc(40% + 1px),
       #00043c 60%,
       #005d6c calc(60% + 1px),
       #005d6c 70%,
